@@ -36,14 +36,16 @@ nav{
   cursor: pointer;
 }
 .nav-link:hover{
-   color: greenyellow;
+   color:aquamarine;
 }
 .logo{
   font-family: "Lobster", sans-serif;
   margin-right: auto;
   font-size: 30px;
 }
-.main-picture{
+
+/* Beans picture section */
+.beans-picture{
   padding-top: 80px;
   display: flex;
   justify-content: center;
@@ -63,29 +65,59 @@ nav{
   padding: 30px;
   background-color: #21140d;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 1px;
-  border: 1px solid greenyellow;
-
+  border: 1px solid aquamarine;
 }
+
+/* Product section */
 .product{
-  border: 1px solid red;
+  padding: 40px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
 }
-.product-container{
-  border: 1px solid red;
+h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+#product-container{
   max-width: 1200px;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 .product-card{
-  display:inline;
-  padding-top: 20px;
+  margin: 0 auto;
+  width: 360px;
 }
+h3{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color:aquamarine;
+}
+
+/* Our Locations Section */
 .location{
-  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+h2{
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 20px;
+}
+.cups{
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
