@@ -1,3 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
 body{
-  background-color: bisque;
+  background-color: #21140d;
+  color: seashell;
+}
+.header{
+  position: fixed;
+  background-color: #21140d;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+.nav-link{
+  text-decoration: none;
+  color: seashell;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.nav-link:hover{
+   color: greenyellow;
+}
+.logo{
+  font-family: "Lobster", sans-serif;
+  margin-right: auto;
+  font-size: 30px;
+}
+.main-picture{
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.background-picture{
+  height: 600px;
+  max-width: 1200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+.slogan{
+  position: absolute;
+  padding: 30px;
+  background-color: #21140d;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border: 1px solid greenyellow;
+
+}
+.product{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.product-container{
+  border: 1px solid red;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+.product-card{
+  display:inline;
+  padding-top: 20px;
+}
+.location{
+  /* border: 1px solid blue; */
 }
