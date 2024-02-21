@@ -50,19 +50,20 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 .background-picture{
+  background-image: url('images/beans.jpg');
   height: 600px;
   max-width: 1200px;
   width: 100%;
   object-fit: cover;
   object-position: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slogan{
-  position: absolute;
-  padding: 30px;
+  padding: 20px;
   background-color: #21140d;
   text-align: center;
   font-size: 24px;
@@ -110,6 +111,18 @@ h3{
   align-items: center;
   position: relative;
 }
+.cups{
+  background-image: url('images/cups.jpg');
+  height: 600px;
+  max-width: 1200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 h2{
   font-weight: 600;
   font-size: 30px;
@@ -139,7 +152,7 @@ h2{
 footer{
   background-color: #21140d;
   text-align: center;
-  padding: 30px 0;
+  padding: 60px 0 30px 0;
 }
 footer h4{
   font-size: 24px;
