@@ -56,8 +56,8 @@ nav{
   height: 600px;
   max-width: 1200px;
   width: 100%;
-  object-fit: cover;
-  object-position: center;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +69,7 @@ nav{
   font-size: 24px;
   letter-spacing: 1px;
   border: 1px solid aquamarine;
+  margin: 0 10px;
 }
 
 /* Product section */
@@ -110,42 +111,41 @@ h3{
   justify-content: center;
   align-items: center;
   position: relative;
+  padding-top: 60px;
 }
 .cups{
   background-image: url('images/cups.jpg');
   height: 600px;
   max-width: 1200px;
-  width: 100%;
+  width: 100vw;
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  padding: 20px 0;
 }
 h2{
   font-weight: 600;
   font-size: 30px;
   letter-spacing: 1px;
-  position: absolute;
-  top: 20px;
+  z-index: 1;
 }
 .location-cards{
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   column-gap: 40px;
   row-gap: 40px;
-  justify-content: space-between;
 }
 .card{
   background-color: #21140d;
-  width: 300px;
+  width: 260px;
   text-align: center;
-  padding: 20px 0;
-  line-height: 32px;
+  padding-bottom: 20px;
+  line-height: 30px;
 }
 
 /* Footer */
@@ -159,4 +159,24 @@ footer h4{
   font-weight: 500;
   letter-spacing: 1px;
   margin-bottom: 10px;
+}
+@media all and (max-width: 768px){
+  .location-cards{
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .card{
+    line-height: 24px;
+  }
+}
+@media all and (max-width: 500px){
+  nav{
+    padding: 20px 10px;
+  }
+  .nav-link{
+    margin-left: 20px;
+  }
+  .logo{
+    font-size: 24px;
+  }
 }
