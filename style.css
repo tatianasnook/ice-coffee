@@ -10,6 +10,9 @@ body{
   background-color: #21140d;
   color: seashell;
 }
+
+/* Header */
+
 .header{
   position: fixed;
   background-color: #21140d;
@@ -44,16 +47,13 @@ nav{
 }
 
 /* Beans picture section */
+
 .beans-picture{
   padding-top: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .background-picture{
   background-image: url('images/beans.jpg');
   height: 600px;
-  max-width: 1200px;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -72,6 +72,7 @@ nav{
 }
 
 /* Product section */
+
 #product{
   padding: 80px 10px;
   display: flex;
@@ -105,6 +106,7 @@ h3{
 }
 
 /* Our Locations Section */
+
 #location{
   display: flex;
   justify-content: center;
@@ -148,6 +150,7 @@ h2{
 }
 
 /* Footer */
+
 footer{
   background-color: #21140d;
   text-align: center;
@@ -161,6 +164,9 @@ footer h4{
 }
 
 @media all and (max-width: 768px){
+  .background-picture {
+      background-size: contain;
+  }
   .location-cards{
     column-gap: 20px;
     row-gap: 20px;
