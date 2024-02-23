@@ -162,25 +162,12 @@ footer h4{
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-
-@media all and (max-width: 1180px){
-  .background-picture{
-  background-image: url('images/beans.jpg');
-  background-position: center;
-  background-size: cover;
-}
-  footer p{
-    color: seashell;
-    text-decoration: none;
-  }
+.phone{
+  color: seashell;
+  text-decoration: none;
 }
 
 @media all and (max-width: 768px){
-  .background-picture {
-    background-image: url('images/beans.jpg');
-    background-position: center;
-    background-size: cover;
-  }
   .location-cards{
     column-gap: 20px;
     row-gap: 20px;
@@ -196,6 +183,7 @@ footer h4{
   }
   .nav-link{
     margin-left: 20px;
+    font-size: 14px;
   }
   .logo{
     font-size: 24px;
