@@ -162,6 +162,7 @@ footer h4{
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+
 @media all and (max-width: 1180px){
   .background-picture{
   background-image: url('images/beans.jpg');
@@ -173,7 +174,13 @@ footer h4{
     text-decoration: none;
   }
 }
+
 @media all and (max-width: 768px){
+  .background-picture {
+    background-image: url('images/beans.jpg');
+    background-position: center;
+    background-size: cover;
+  }
   .location-cards{
     column-gap: 20px;
     row-gap: 20px;
