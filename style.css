@@ -162,11 +162,18 @@ footer h4{
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-
-@media all and (max-width: 768px){
-  .background-picture {
-      background-size: contain;
+@media all and (max-width: 1180px){
+  .background-picture{
+  background-image: url('images/beans.jpg');
+  background-position: center;
+  background-size: cover;
+}
+  footer p{
+    color: seashell;
+    text-decoration: none;
   }
+}
+@media all and (max-width: 768px){
   .location-cards{
     column-gap: 20px;
     row-gap: 20px;
